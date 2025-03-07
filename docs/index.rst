@@ -100,20 +100,9 @@ The main interface of the **Segmentation Stitcher** shows loaded segments in the
 On the left side, the Control Panel provides access to all necessary tools and settings. 
 The *Segments* box lists all the loaded segments, each with a checkbox indicating whether it is currently be displayed.  
 
-While the other side offers an interactive 3D visualization of the segmentations being worked on.
-Rotating, panning and zooming the view is done by holding down a mouse button and dragging as in the following table:
-
-======================= ==============
-Mouse Button            Transformation
-======================= ==============
-Left                    Tumble/Rotate
------------------------ --------------
-Middle or Shift+Left    Pan/Translate
------------------------ --------------
-Right or Ctrl+Left(Mac) Fly Zoom
------------------------ --------------
-Shift+Right             Camera Zoom
-======================= ==============
+While the other side is a **Sceneviewer Widget**, which provides an interactive 3D visualization of the segmentations being worked on.
+Detailed documentation for this widgets can be found at
+`Sceneviewer Widget Documentation <https://abi-mapping-tools.readthedocs.io/en/latest/cmlibs.widgets/docs/sceneviewerwidget.html>`_.
 
 The *View All* button conservatively resets the view to see the whole model (esp. if coordinate field is changed), 
 while *Std. Views* cycles between standard orthographic views of the graphics.
